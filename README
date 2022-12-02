@@ -1,0 +1,15 @@
+Proc read and write module linux kernel 4.15
+
+Installing the linux headers
+
+You need to install the linux-headers-.. first as shown below. Depending on your distro, use apt-get or yum.
+
+# apt-get install build-essential linux-headers-$(uname -r)
+
+Next, create the following proc.c module in C programming language.
+
+reate Makefile to Compile Kernel Module
+
+The following makefile can be used to compile the above basic proc read and write module linux kernel
+
+Use the make command to compile proc read and write module linux kernel as shown below.
